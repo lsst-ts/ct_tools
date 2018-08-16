@@ -1,6 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
+	<Property Name="varPersistentID:{1B95841B-D7A3-4325-BF18-7F96D667BA29}" Type="Ref">/My Computer/Variables/SwitchDependenciesVariables.lvlib/VIsReplaced</Property>
+	<Property Name="varPersistentID:{34FB1354-5B73-4340-855B-E3BC6EEE0DD6}" Type="Ref">/My Computer/Variables/SwitchDependenciesVariables.lvlib/VIsReplaceFailed</Property>
+	<Property Name="varPersistentID:{6B1A3FD5-382F-4FD4-A0F4-935EA30212AA}" Type="Ref">/My Computer/Variables/SwitchDependenciesVariables.lvlib/CtlsReplaced</Property>
+	<Property Name="varPersistentID:{C99F7DE0-8709-49F4-81F4-059C0F6CF893}" Type="Ref">/My Computer/Variables/SwitchDependenciesVariables.lvlib/CtlsReplaceFailed</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -46,6 +50,9 @@
 		</Item>
 		<Item Name="Search" Type="Folder">
 			<Item Name="Search.lvclass" Type="LVClass" URL="../Search/Search.lvclass"/>
+		</Item>
+		<Item Name="Variables" Type="Folder">
+			<Item Name="SwitchDependenciesVariables.lvlib" Type="Library" URL="../Variables/SwitchDependenciesVariables.lvlib"/>
 		</Item>
 		<Item Name="replaceLibraryCallsScript.vi" Type="VI" URL="../replaceLibraryCallsScript.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
