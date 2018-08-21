@@ -43,12 +43,33 @@
 			<Item Name="ProjectItemSelection.ctl" Type="VI" URL="../Typedefs/ProjectItemSelection.ctl"/>
 			<Item Name="LibraryMemberNameReplacement.ctl" Type="VI" URL="../Typedefs/LibraryMemberNameReplacement.ctl"/>
 			<Item Name="LibraryDirectories.ctl" Type="VI" URL="../Typedefs/LibraryDirectories.ctl"/>
+			<Item Name="NodeSelection.ctl" Type="VI" URL="../Typedefs/NodeSelection.ctl"/>
 		</Item>
 		<Item Name="Search" Type="Folder">
 			<Item Name="Search.lvclass" Type="LVClass" URL="../Search/Search.lvclass"/>
 		</Item>
 		<Item Name="Variables" Type="Folder">
 			<Item Name="SwitchDependenciesVariables.lvlib" Type="Library" URL="../Variables/SwitchDependenciesVariables.lvlib"/>
+		</Item>
+		<Item Name="Dependency" Type="Folder">
+			<Item Name="Dependency.lvclass" Type="LVClass" URL="../Dependency/Dependency.lvclass"/>
+		</Item>
+		<Item Name="Node" Type="Folder">
+			<Item Name="Node.lvclass" Type="LVClass" URL="../Node/Node.lvclass"/>
+		</Item>
+		<Item Name="Nodes" Type="Folder">
+			<Item Name="CaseStructure.lvclass" Type="LVClass" URL="../Nodes/CaseStructure/CaseStructure.lvclass"/>
+			<Item Name="DefaultNode.lvclass" Type="LVClass" URL="../Nodes/DefaultNode/DefaultNode.lvclass"/>
+			<Item Name="EventStructure.lvclass" Type="LVClass" URL="../Nodes/EventStructure/EventStructure.lvclass"/>
+			<Item Name="FlatSequence.lvclass" Type="LVClass" URL="../Nodes/FlatSequence/FlatSequence.lvclass"/>
+			<Item Name="ForLoop.lvclass" Type="LVClass" URL="../Nodes/ForLoop/ForLoop.lvclass"/>
+			<Item Name="Loop.lvclass" Type="LVClass" URL="../Nodes/Loop/Loop.lvclass"/>
+			<Item Name="WhileLoop.lvclass" Type="LVClass" URL="../Nodes/WhileLoop/WhileLoop.lvclass"/>
+			<Item Name="MultiFrameStructure.lvclass" Type="LVClass" URL="../Nodes/MultiFrameStructure/MultiFrameStructure.lvclass"/>
+		</Item>
+		<Item Name="NodeFactory" Type="Folder">
+			<Item Name="INodeFactory.lvclass" Type="LVClass" URL="../INodeFactory/INodeFactory.lvclass"/>
+			<Item Name="NodeFactory.lvclass" Type="LVClass" URL="../NodeFactory/NodeFactory.lvclass"/>
 		</Item>
 		<Item Name="replaceLibraryCallsScript.vi" Type="VI" URL="../replaceLibraryCallsScript.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
