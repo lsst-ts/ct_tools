@@ -44,6 +44,7 @@
 			<Item Name="LibraryMemberNameReplacement.ctl" Type="VI" URL="../Typedefs/LibraryMemberNameReplacement.ctl"/>
 			<Item Name="LibraryDirectories.ctl" Type="VI" URL="../Typedefs/LibraryDirectories.ctl"/>
 			<Item Name="NodeSelection.ctl" Type="VI" URL="../Typedefs/NodeSelection.ctl"/>
+			<Item Name="GObjectSelection.ctl" Type="VI" URL="../Typedefs/GObjectSelection.ctl"/>
 		</Item>
 		<Item Name="Search" Type="Folder">
 			<Item Name="Search.lvclass" Type="LVClass" URL="../Search/Search.lvclass"/>
@@ -53,6 +54,19 @@
 		</Item>
 		<Item Name="Dependency" Type="Folder">
 			<Item Name="Dependency.lvclass" Type="LVClass" URL="../Dependency/Dependency.lvclass"/>
+		</Item>
+		<Item Name="GObjectFactory" Type="Folder">
+			<Item Name="IGObjectFactory.lvclass" Type="LVClass" URL="../IGObjectFactory/IGObjectFactory.lvclass"/>
+			<Item Name="GObjectFactory.lvclass" Type="LVClass" URL="../GObjectFactory/GObjectFactory.lvclass"/>
+		</Item>
+		<Item Name="GObject" Type="Folder">
+			<Item Name="GObject.lvclass" Type="LVClass" URL="../GObject/GObject.lvclass"/>
+		</Item>
+		<Item Name="GObjects" Type="Folder">
+			<Item Name="Constant.lvclass" Type="LVClass" URL="../GObjects/Constant/Constant.lvclass"/>
+			<Item Name="DefaultDiagramObject.lvclass" Type="LVClass" URL="../GObjects/DefaultDiagramObject/DefaultDiagramObject.lvclass"/>
+			<Item Name="EnumConstant.lvclass" Type="LVClass" URL="../GObjects/EnumConstant/EnumConstant.lvclass"/>
+			<Item Name="ClusterConstant.lvclass" Type="LVClass" URL="../GObjects/ClusterConstant/ClusterConstant.lvclass"/>
 		</Item>
 		<Item Name="Node" Type="Folder">
 			<Item Name="Node.lvclass" Type="LVClass" URL="../Node/Node.lvclass"/>
@@ -70,6 +84,9 @@
 		<Item Name="NodeFactory" Type="Folder">
 			<Item Name="INodeFactory.lvclass" Type="LVClass" URL="../INodeFactory/INodeFactory.lvclass"/>
 			<Item Name="NodeFactory.lvclass" Type="LVClass" URL="../NodeFactory/NodeFactory.lvclass"/>
+		</Item>
+		<Item Name="DiagramObject" Type="Folder">
+			<Item Name="DiagramObject.lvclass" Type="LVClass" URL="../DiagramObject/DiagramObject.lvclass"/>
 		</Item>
 		<Item Name="replaceLibraryCallsScript.vi" Type="VI" URL="../replaceLibraryCallsScript.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
