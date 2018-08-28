@@ -44,7 +44,6 @@
 			<Item Name="ProjectItemSelection.ctl" Type="VI" URL="../Typedefs/ProjectItemSelection.ctl"/>
 			<Item Name="LibraryMemberNameReplacement.ctl" Type="VI" URL="../Typedefs/LibraryMemberNameReplacement.ctl"/>
 			<Item Name="LibraryDirectories.ctl" Type="VI" URL="../Typedefs/LibraryDirectories.ctl"/>
-			<Item Name="NodeSelection.ctl" Type="VI" URL="../Typedefs/NodeSelection.ctl"/>
 			<Item Name="GObjectSelection.ctl" Type="VI" URL="../Typedefs/GObjectSelection.ctl"/>
 		</Item>
 		<Item Name="Search" Type="Folder">
@@ -68,23 +67,13 @@
 			<Item Name="DefaultDiagramObject.lvclass" Type="LVClass" URL="../GObjects/DefaultDiagramObject/DefaultDiagramObject.lvclass"/>
 			<Item Name="EnumConstant.lvclass" Type="LVClass" URL="../GObjects/EnumConstant/EnumConstant.lvclass"/>
 			<Item Name="ClusterConstant.lvclass" Type="LVClass" URL="../GObjects/ClusterConstant/ClusterConstant.lvclass"/>
-		</Item>
-		<Item Name="Node" Type="Folder">
-			<Item Name="Node.lvclass" Type="LVClass" URL="../Node/Node.lvclass"/>
-		</Item>
-		<Item Name="Nodes" Type="Folder">
-			<Item Name="CaseStructure.lvclass" Type="LVClass" URL="../Nodes/CaseStructure/CaseStructure.lvclass"/>
-			<Item Name="DefaultNode.lvclass" Type="LVClass" URL="../Nodes/DefaultNode/DefaultNode.lvclass"/>
-			<Item Name="EventStructure.lvclass" Type="LVClass" URL="../Nodes/EventStructure/EventStructure.lvclass"/>
-			<Item Name="FlatSequence.lvclass" Type="LVClass" URL="../Nodes/FlatSequence/FlatSequence.lvclass"/>
-			<Item Name="ForLoop.lvclass" Type="LVClass" URL="../Nodes/ForLoop/ForLoop.lvclass"/>
-			<Item Name="Loop.lvclass" Type="LVClass" URL="../Nodes/Loop/Loop.lvclass"/>
-			<Item Name="WhileLoop.lvclass" Type="LVClass" URL="../Nodes/WhileLoop/WhileLoop.lvclass"/>
-			<Item Name="MultiFrameStructure.lvclass" Type="LVClass" URL="../Nodes/MultiFrameStructure/MultiFrameStructure.lvclass"/>
-		</Item>
-		<Item Name="NodeFactory" Type="Folder">
-			<Item Name="INodeFactory.lvclass" Type="LVClass" URL="../INodeFactory/INodeFactory.lvclass"/>
-			<Item Name="NodeFactory.lvclass" Type="LVClass" URL="../NodeFactory/NodeFactory.lvclass"/>
+			<Item Name="ForLoop.lvclass" Type="LVClass" URL="../GObjects/ForLoop/ForLoop.lvclass"/>
+			<Item Name="Loop.lvclass" Type="LVClass" URL="../GObjects/Loop/Loop.lvclass"/>
+			<Item Name="WhileLoop.lvclass" Type="LVClass" URL="../GObjects/WhileLoop/WhileLoop.lvclass"/>
+			<Item Name="CaseStructure.lvclass" Type="LVClass" URL="../GObjects/CaseStructure/CaseStructure.lvclass"/>
+			<Item Name="EventStructure.lvclass" Type="LVClass" URL="../GObjects/EventStructure/EventStructure.lvclass"/>
+			<Item Name="FlatSequence.lvclass" Type="LVClass" URL="../GObjects/FlatSequence/FlatSequence.lvclass"/>
+			<Item Name="MultiFrameStructure.lvclass" Type="LVClass" URL="../GObjects/MultiFrameStructure/MultiFrameStructure.lvclass"/>
 		</Item>
 		<Item Name="DiagramObject" Type="Folder">
 			<Item Name="DiagramObject.lvclass" Type="LVClass" URL="../DiagramObject/DiagramObject.lvclass"/>
