@@ -44,7 +44,6 @@
 			<Item Name="ProjectItemSelection.ctl" Type="VI" URL="../Typedefs/ProjectItemSelection.ctl"/>
 			<Item Name="LibraryMemberNameReplacement.ctl" Type="VI" URL="../Typedefs/LibraryMemberNameReplacement.ctl"/>
 			<Item Name="LibraryDirectories.ctl" Type="VI" URL="../Typedefs/LibraryDirectories.ctl"/>
-			<Item Name="NodeSelection.ctl" Type="VI" URL="../Typedefs/NodeSelection.ctl"/>
 			<Item Name="GObjectSelection.ctl" Type="VI" URL="../Typedefs/GObjectSelection.ctl"/>
 		</Item>
 		<Item Name="Search" Type="Folder">
