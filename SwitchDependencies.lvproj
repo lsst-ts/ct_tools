@@ -76,16 +76,6 @@
 			<Item Name="FlatSequence.lvclass" Type="LVClass" URL="../GObjects/FlatSequence/FlatSequence.lvclass"/>
 			<Item Name="MultiFrameStructure.lvclass" Type="LVClass" URL="../GObjects/MultiFrameStructure/MultiFrameStructure.lvclass"/>
 		</Item>
-		<Item Name="Node" Type="Folder">
-			<Item Name="Node.lvclass" Type="LVClass" URL="../Node/Node.lvclass"/>
-		</Item>
-		<Item Name="Nodes" Type="Folder">
-			<Item Name="DefaultNode.lvclass" Type="LVClass" URL="../Nodes/DefaultNode/DefaultNode.lvclass"/>
-		</Item>
-		<Item Name="NodeFactory" Type="Folder">
-			<Item Name="INodeFactory.lvclass" Type="LVClass" URL="../INodeFactory/INodeFactory.lvclass"/>
-			<Item Name="NodeFactory.lvclass" Type="LVClass" URL="../NodeFactory/NodeFactory.lvclass"/>
-		</Item>
 		<Item Name="DiagramObject" Type="Folder">
 			<Item Name="DiagramObject.lvclass" Type="LVClass" URL="../DiagramObject/DiagramObject.lvclass"/>
 		</Item>
