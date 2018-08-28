@@ -37,6 +37,7 @@
 			<Item Name="LVClass.lvclass" Type="LVClass" URL="../ProjectItems/LVClass/LVClass.lvclass"/>
 			<Item Name="VI.lvclass" Type="LVClass" URL="../ProjectItems/VI/VI.lvclass"/>
 			<Item Name="Dependencies.lvclass" Type="LVClass" URL="../ProjectItems/Dependencies/Dependencies.lvclass"/>
+			<Item Name="ClassPrivateData.lvclass" Type="LVClass" URL="../ProjectItems/ClassPrivateData/ClassPrivateData.lvclass"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Libraries.ctl" Type="VI" URL="../Typedefs/Libraries.ctl"/>
