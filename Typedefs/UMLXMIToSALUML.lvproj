@@ -17,7 +17,9 @@
 			</Item>
 			<Item Name="EnvironmentOptions.ctl" Type="VI" URL="../EnvironmentOptions.ctl"/>
 			<Item Name="SourceAndDestinationPaths.ctl" Type="VI" URL="../SourceAndDestinationPaths.ctl"/>
-			<Item Name="execCL.vi" Type="VI" URL="../../execCL.vi"/>
+			<Item Name="checkPython2.vi" Type="VI" URL="../../Python/checkPython2.vi"/>
+			<Item Name="execCL.vi" Type="VI" URL="../../CL/execCL.vi"/>
+			<Item Name="retrievePythonVersion.vi" Type="VI" URL="../../Python/retrievePythonVersion.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
