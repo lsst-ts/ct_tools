@@ -16,6 +16,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 			</Item>
 			<Item Name="CaseStructure.lvclass" Type="LVClass" URL="../GObjects/CaseStructure/CaseStructure.lvclass"/>
 			<Item Name="ClassPrivateData.lvclass" Type="LVClass" URL="../ProjectItems/ClassPrivateData/ClassPrivateData.lvclass"/>
